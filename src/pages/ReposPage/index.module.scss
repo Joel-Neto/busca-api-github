@@ -1,0 +1,43 @@
+@import "../../sass/others/colors.scss";
+
+.loadingData {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.returnLink {
+  color: $color-input-text;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
+
+  .sideBar {
+    min-width: 20rem;
+    box-shadow: inset -3px 8px 12px rgba(0, 0, 0, 0.3);
+
+    @media (max-width: 330px) {
+      min-width: 15rem;
+    }
+  }
+
+  .main {
+    background-color: $btn-hover;
+    width: 100%;
+    padding: 40px;
+
+    @media (max-width: 425px) {
+      padding: 40px 20px;
+    }
+  }
+}

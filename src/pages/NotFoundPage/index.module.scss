@@ -1,0 +1,15 @@
+@import "../../sass/others/colors.scss";
+
+.loadingData {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.returnLink {
+  color: $color-input-text;
+}

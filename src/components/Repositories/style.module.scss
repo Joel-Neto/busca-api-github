@@ -1,0 +1,18 @@
+.reposTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 680px) {
+    text-align: center;
+  }
+}
+
+.reposContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  @media (max-width: 680px) {
+    justify-content: center;
+  }
+}

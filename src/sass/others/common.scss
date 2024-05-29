@@ -1,0 +1,7 @@
+@import "./colors.scss";
+
+%btn-filter {
+  transform: translateX(5px);
+  background-color: $color-light !important;
+  color: $color-background !important;
+}

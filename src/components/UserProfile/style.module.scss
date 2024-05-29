@@ -1,0 +1,57 @@
+@import "../../sass/others/colors.scss";
+
+.container {
+  padding: 1rem;
+
+  .profileHeader {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .profileAvatar {
+      width: 70%;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+
+      @media (max-width: 680px) {
+        width: 35%;
+      }
+
+      @media (max-width: 425px) {
+        width: 60%;
+      }
+    }
+
+    .profileLogin {
+      font-size: 1.3rem;
+      margin-bottom: 5px;
+    }
+
+    .profileName {
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+  }
+
+  .profileData {
+    padding: 1rem;
+
+    p {
+      display: flex;
+      align-items: center;
+      line-height: 1.6;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+
+    a {
+      color: $color-text;
+      text-decoration: underline;
+    }
+  }
+}
