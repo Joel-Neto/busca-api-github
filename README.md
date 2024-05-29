@@ -1,5 +1,5 @@
 # React + API GitHub
-## Link do projeto: https://busca-api-github.vercel.app/
+### Link do projeto: https://busca-api-github.vercel.app/
 
 Este é um projeto React que utiliza VITE para construção rápida e a API do GitHub para buscar usuários e seus repositórios.
 
